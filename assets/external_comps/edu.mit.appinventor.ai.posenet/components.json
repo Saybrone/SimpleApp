@@ -1,0 +1,271 @@
+[{
+ "categoryString": "EXTENSION",
+ "dateBuilt": "2020-03-04T12:11:26-0500",
+ "nonVisible": "true",
+ "iconName": "aiwebres/icon.png",
+ "methods": [],
+ "blockProperties": [
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "BackgroundImage",
+   "description": "BackGround Image.",
+   "type": "text"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "Enabled",
+   "description": "Enables or disables pose detection.",
+   "type": "boolean"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "KeyPoints",
+   "description": "A list of points representing body parts that met the minimum part confidence threshold.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "LeftAnkle",
+   "description": "Position of the left ankle in the video frame as an (x, y) pair. If no left ankle is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "LeftEar",
+   "description": "Position of the left ear in the video frame as an (x, y) pair. If no left ear is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "LeftElbow",
+   "description": "Position of the left elbow in the video frame as an (x, y) pair. If no left elbow is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "LeftEye",
+   "description": "Position of the left eye in the video frame as an (x, y) pair. If no left eye is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "LeftHip",
+   "description": "Position of the left hip in the video frame as an (x, y) pair. If no left hip is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "LeftKnee",
+   "description": "Position of the left knee in the video frame as an (x, y) pair. If no left knee is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "LeftShoulder",
+   "description": "Position of the left shoulder in the video frame as an (x, y) pair. If no left shoulder is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "LeftWrist",
+   "description": "Position of the left wrist in the video frame as an (x, y) pair. If no left wrist is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "MinPartConfidence",
+   "description": "The minimum amount of confidence to detect a body part.",
+   "type": "number"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "MinPoseConfidence",
+   "description": "The minimum confidence required to detect a pose.",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Nose",
+   "description": "Position of the nose in the video frame as an (x, y) pair. If no nose is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "RightAnkle",
+   "description": "Position of the right ankle in the video frame as an (x, y) pair. If no right ankle is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "RightEar",
+   "description": "Position of the right ear in the video frame as an (x, y) pair. If no right ear is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "RightElbow",
+   "description": "Position of the right elbow in the video frame as an (x, y) pair. If no right eblow is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "RightEye",
+   "description": "Position of the right eye in the video frame as an (x, y) pair. If no right eye is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "RightHip",
+   "description": "Position of the right hip in the video frame as an (x, y) pair. If no right hip is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "RightKnee",
+   "description": "Position of the right knee in the video frame as an (x, y) pair. If no right knee is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "RightShoulder",
+   "description": "Position of the right shoulder in the video frame as an (x, y) pair. If no right shoulder is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "RightWrist",
+   "description": "Position of the right wrist the video frame as an (x, y) pair. If no right wrist is detected, it returns an empty list.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Skeleton",
+   "description": "A list of pairs of points representing connections between valid body parts.",
+   "type": "list"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "UseCamera",
+   "description": "Configures Posenet to use the front or back camera on the device.",
+   "type": "text"
+  },
+  {
+   "rw": "invisible",
+   "deprecated": "false",
+   "name": "WebViewer",
+   "description": "Property for WebViewer",
+   "type": "component"
+  }
+ ],
+ "helpUrl": "",
+ "type": "edu.mit.appinventor.ai.posenet.PosenetExtension",
+ "androidMinSdk": 7,
+ "version": "20191008",
+ "external": "true",
+ "showOnPalette": "true",
+ "assets": [
+  "app.js",
+  "model-stride16.json",
+  "group1-shard1of1.bin",
+  "index.html",
+  "posenet.min.js",
+  "tf-core.min.js",
+  "tf-converter.min.js"
+ ],
+ "name": "PosenetExtension",
+ "helpString": "An extension that embeds a Posenet model.",
+ "properties": [
+  {
+   "defaultValue": "True",
+   "name": "Enabled",
+   "editorArgs": [],
+   "editorType": "boolean"
+  },
+  {
+   "defaultValue": "0.5",
+   "name": "MinPartConfidence",
+   "editorArgs": [],
+   "editorType": "non_negative_float"
+  },
+  {
+   "defaultValue": "0.1",
+   "name": "MinPoseConfidence",
+   "editorArgs": [],
+   "editorType": "non_negative_float"
+  },
+  {
+   "defaultValue": "Front",
+   "name": "UseCamera",
+   "editorArgs": [
+    "Back",
+    "Front"
+   ],
+   "editorType": "choices"
+  },
+  {
+   "defaultValue": "",
+   "name": "WebViewer",
+   "editorArgs": [],
+   "editorType": "component:com.google.appinventor.components.runtime.WebViewer"
+  }
+ ],
+ "events": [
+  {
+   "deprecated": "false",
+   "name": "Error",
+   "description": "Event indicating that an error has occurred.",
+   "params": [
+    {
+     "name": "errorCode",
+     "type": "number"
+    },
+    {
+     "name": "errorMessage",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "ModelReady",
+   "description": "Event indicating that the classifier is ready.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "PoseUpdated",
+   "description": "Event indicating that classification has finished successfully. Result is of the form [[class1, confidence1], ...]",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "VideoUpdated",
+   "description": "Event indicating that a new video frame is ready.",
+   "params": []
+  }
+ ]
+}]

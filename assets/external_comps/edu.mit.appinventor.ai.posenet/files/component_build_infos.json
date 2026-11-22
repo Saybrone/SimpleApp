@@ -1,0 +1,1 @@
+[{"assets":["app.js","model-stride16.json","group1-shard1of1.bin","index.html","posenet.min.js","tf-core.min.js","tf-converter.min.js"],"native":[],"permissions":["android.permission.CAMERA"],"activities":[],"broadcastReceivers":[],"broadcastReceiver":[],"libraries":[],"type":"edu.mit.appinventor.ai.posenet.PosenetExtension","androidMinSdk":["7"]}]
